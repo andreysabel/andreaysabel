@@ -10,11 +10,11 @@ html{
 }
 
 header{
-    background-color: #fff3e2;
+    background-color: #f1f3f8;
 }
 
 .nav{
-    padding: 20px;
+    padding: 15px;
     list-style: none;
     text-align: right;
 }
@@ -22,10 +22,10 @@ header{
 .nav li {
     color: #333;
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 10px 0;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -44,29 +44,31 @@ section::after {
 }
 
 .inicio{
-    background-color: #ebcfc4;
-    min-width: 200px;
-    min-height: 100px;
+    background-color: #f1f3f8;
+    min-width: 100%;
+    min-height: 30vh;
     padding: 10px;
-    margin-bottom: 10px;
 }
 
 .proyectos{
-    min-width: 200px;
-    min-height: 100px;
+    min-height: 30vh;
     padding: 10px;
-    margin-bottom: 10px;
-    background-color: #9088d4;
+    background-color: #d6e0f0;
 }
 
 .skills{
-    min-width: 200px;
-    min-height: 100px;
+    min-height: 20vh;
     padding: 10px;
-    margin-bottom: 10px;
-    background-color: #706897;
+    background-color: #8d93ab;
+}
+
+.inicio > p {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
 }
 
 footer{
-
+    min-height: 20vh;
+    background-color: #393b44;
 }
